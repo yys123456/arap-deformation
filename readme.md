@@ -2,7 +2,7 @@
 ### Description
 This is a dirty implementation of <a href="https://igl.ethz.ch/projects/ARAP/arap_web.pdf">As-Rigid-As-Possible Surface Modeling (SGP2007)</a> using uniform laplacian
 
-Use **local/global** method to optimize:
+Use **local/global** method to optimize energy at each vertex i:
 
 <img src="https://user-images.githubusercontent.com/42519504/162159684-6999ad50-4c9c-4e8f-bf9c-dd28e47fff48.PNG"/>
 
