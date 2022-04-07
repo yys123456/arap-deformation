@@ -15,3 +15,5 @@ Press `a` to display/hide anchor points
 Drag `left mouse button` to rotate mesh
 
 Drag `right mouse button` to select/deform in select/deform mode
+### Cotangent laplacian
+When I use cotangent laplacian in the deformation iteration, I got really wired result, and found it hard to make it right.
