@@ -3,22 +3,22 @@
 This is a dirty implementation of <a href="https://igl.ethz.ch/projects/ARAP/arap_web.pdf">As-Rigid-As-Possible Surface Modeling (SGP2007)</a> using uniform laplacian
 
 Use **local/global** method to optimize:
-$$
-\sum_{i}\sum_{j\in N(i)}w_{ij}||(p'_i-p'_j)-R_i(p_i-p_j)||^2\ (1)
-$$
-local optimization (fixed p' (known) to get best $R_1,...,R_n$, use SVD decomposition to **construct** each $R_i$):
 
-for each $i$ to optimize this:
-$$
-\sum_{j\in N(i)}w_{ij}||e'_{ij}-R_ie_{ij}||^2
-$$
-we need $R_i=V_iU_i^T$, and $U_i, V_i$ is the SVD decomposition of: (note that $e_{ij}$ is the edge on the origin mesh, no matter how many iterations)
-$$
-\sum_{j\in N(i)}w_{ij}e_{ij}e'^T_{ij}=U_iS_iV_i^T
-$$
-global optimization (fixed R (known) to get best $p_1,...,p_n$ by solving a **linear system**), take the derivative of (1) and assume R as constant, we can get i-th equation of the system:
+<img src="https://user-images.githubusercontent.com/42519504/162159684-6999ad50-4c9c-4e8f-bf9c-dd28e47fff48.PNG"/>
 
-<img src="fonp.png"/>
+**local optimization** (fixed p' (known) to get best R1,...,Rn, use SVD decomposition to **construct** each Ri):
+
+for each i to optimize this (let pi - pj = eij, p'i - p'j  = e'ij):
+
+<img src="https://user-images.githubusercontent.com/42519504/162159625-74cc27a3-3522-46d0-b8e4-3b56d14fc560.png">
+
+so we need Ri=Vi*transpose(Ui) to let the stuff in `(...)` to be semi-positive definite symmetric to make its trace maximum, and Ui, Vi is the SVD decomposition of: (note that eij is the edge on the origin mesh, no matter how many iterations)
+
+<img src="https://user-images.githubusercontent.com/42519504/162159515-85a0eb95-d27b-4943-983d-eec7d754cda0.PNG">
+
+**global optimization** (fixed R (known) to get best p1,...,pn by solving a **linear system**), take the derivative of (1) and assume R as constant, we can get i-th equation of the system:
+
+<img src="https://user-images.githubusercontent.com/42519504/162156056-84f81c75-10e4-4230-b320-548ecb17a581.PNG"/>
 
 solving p' and R alternatively to get the best solution of p'.
 
