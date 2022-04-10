@@ -1,0 +1,152 @@
+﻿  glad.c
+  arap.cpp
+c:\users\yys\desktop\opt\tes\arap-deformation\include\eigen\src\core\arch\default\half.h : warning C4819: 该文件包含不能在当前代码页(936)中表示的字符。请将该文件保存为 Unicode 格式以防止数据丢失
+c:\users\yys\desktop\opt\tes\arap-deformation\include\eigen\src\core\arch\default\bfloat16.h : warning C4819: 该文件包含不能在当前代码页(936)中表示的字符。请将该文件保存为 Unicode 格式以防止数据丢失
+c:\users\yys\desktop\opt\tes\arap-deformation\include\eigen\src\core\arch\default\genericpacketmathfunctions.h(665): warning C4819: 该文件包含不能在当前代码页(936)中表示的字符。请将该文件保存为 Unicode 格式以防止数据丢失
+c:\users\yys\desktop\opt\tes\arap-deformation\include\igl\polygons_to_triangles.cpp : warning C4819: 该文件包含不能在当前代码页(936)中表示的字符。请将该文件保存为 Unicode 格式以防止数据丢失
+c:\users\yys\desktop\opt\tes\arap-deformation\arap\arap\arap.cpp(64): warning C4244: “=”: 从“double”转换到“_Ty”，可能丢失数据
+          with
+          [
+              _Ty=float
+          ]
+c:\users\yys\desktop\opt\tes\arap-deformation\arap\arap\arap.cpp(65): warning C4244: “=”: 从“double”转换到“_Ty”，可能丢失数据
+          with
+          [
+              _Ty=float
+          ]
+c:\users\yys\desktop\opt\tes\arap-deformation\arap\arap\arap.cpp(66): warning C4244: “=”: 从“double”转换到“_Ty”，可能丢失数据
+          with
+          [
+              _Ty=float
+          ]
+c:\users\yys\desktop\opt\tes\arap-deformation\arap\arap\arap.cpp(81): warning C4244: “=”: 从“double”转换到“float”，可能丢失数据
+c:\users\yys\desktop\opt\tes\arap-deformation\arap\arap\arap.cpp(82): warning C4244: “=”: 从“double”转换到“float”，可能丢失数据
+c:\users\yys\desktop\opt\tes\arap-deformation\arap\arap\arap.cpp(83): warning C4244: “=”: 从“double”转换到“float”，可能丢失数据
+c:\users\yys\desktop\opt\tes\arap-deformation\arap\arap\arap.cpp(93): warning C4244: “参数”: 从“_Ty”转换到“const float”，可能丢失数据
+          with
+          [
+              _Ty=int
+          ]
+c:\users\yys\desktop\opt\tes\arap-deformation\arap\arap\arap.cpp(115): warning C4244: “=”: 从“double”转换到“float”，可能丢失数据
+c:\users\yys\desktop\opt\tes\arap-deformation\arap\arap\arap.cpp(116): warning C4244: “=”: 从“double”转换到“float”，可能丢失数据
+c:\users\yys\desktop\opt\tes\arap-deformation\arap\arap\arap.cpp(117): warning C4244: “=”: 从“double”转换到“float”，可能丢失数据
+c:\users\yys\desktop\opt\tes\arap-deformation\arap\arap\arap.cpp(118): warning C4244: “=”: 从“int”转换到“float”，可能丢失数据
+c:\users\yys\desktop\opt\tes\arap-deformation\arap\arap\arap.cpp(132): warning C4244: “=”: 从“double”转换到“float”，可能丢失数据
+c:\users\yys\desktop\opt\tes\arap-deformation\arap\arap\arap.cpp(133): warning C4244: “=”: 从“double”转换到“float”，可能丢失数据
+c:\users\yys\desktop\opt\tes\arap-deformation\arap\arap\arap.cpp(142): warning C4267: “+=”: 从“size_t”转换到“int”，可能丢失数据
+c:\users\yys\desktop\opt\tes\arap-deformation\arap\arap\arap.cpp(153): warning C4244: “参数”: 从“double”转换到“const float”，可能丢失数据
+c:\users\yys\desktop\opt\tes\arap-deformation\arap\arap\arap.cpp(152): warning C4244: “参数”: 从“double”转换到“const float”，可能丢失数据
+c:\users\yys\desktop\opt\tes\arap-deformation\arap\arap\arap.cpp(151): warning C4244: “参数”: 从“double”转换到“const float”，可能丢失数据
+c:\users\yys\desktop\opt\tes\arap-deformation\arap\arap\arap.cpp(157): warning C4244: “参数”: 从“unsigned __int64”转换到“const Scalar”，可能丢失数据
+          with
+          [
+              Scalar=double
+          ]
+c:\users\yys\desktop\opt\tes\arap-deformation\arap\arap\arap.cpp(166): warning C4244: “参数”: 从“double”转换到“const float”，可能丢失数据
+c:\users\yys\desktop\opt\tes\arap-deformation\arap\arap\arap.cpp(165): warning C4244: “参数”: 从“double”转换到“const float”，可能丢失数据
+c:\users\yys\desktop\opt\tes\arap-deformation\arap\arap\arap.cpp(164): warning C4244: “参数”: 从“double”转换到“const float”，可能丢失数据
+c:\users\yys\desktop\opt\tes\arap-deformation\arap\arap\arap.cpp(190): warning C4244: “return”: 从“double”转换到“float”，可能丢失数据
+c:\users\yys\desktop\opt\tes\arap-deformation\arap\arap\arap.cpp(221): warning C4305: “参数”: 从“double”到“float”截断
+c:\users\yys\desktop\opt\tes\arap-deformation\arap\arap\arap.cpp(234): warning C4101: “z_ndc”: 未引用的局部变量
+c:\users\yys\desktop\opt\tes\arap-deformation\arap\arap\arap.cpp(258): warning C4244: “return”: 从“double”转换到“int”，可能丢失数据
+c:\users\yys\desktop\opt\tes\arap-deformation\arap\arap\arap.cpp(347): warning C4244: “初始化”: 从“double”转换到“float”，可能丢失数据
+c:\users\yys\desktop\opt\tes\arap-deformation\arap\arap\arap.cpp(357): warning C4244: “=”: 从“double”转换到“float”，可能丢失数据
+c:\users\yys\desktop\opt\tes\arap-deformation\arap\arap\arap.cpp(358): warning C4244: “=”: 从“double”转换到“float”，可能丢失数据
+c:\users\yys\desktop\opt\tes\arap-deformation\arap\arap\arap.cpp(359): warning C4244: “=”: 从“double”转换到“float”，可能丢失数据
+c:\users\yys\desktop\opt\tes\arap-deformation\arap\arap\arap.cpp(367): warning C4267: “+=”: 从“size_t”转换到“int”，可能丢失数据
+c:\users\yys\desktop\opt\tes\arap-deformation\arap\arap\arap.cpp(369): warning C4244: “=”: 从“double”转换到“float”，可能丢失数据
+c:\users\yys\desktop\opt\tes\arap-deformation\arap\arap\arap.cpp(370): warning C4244: “=”: 从“double”转换到“float”，可能丢失数据
+c:\users\yys\desktop\opt\tes\arap-deformation\arap\arap\arap.cpp(371): warning C4244: “=”: 从“double”转换到“float”，可能丢失数据
+c:\users\yys\desktop\opt\tes\arap-deformation\arap\arap\arap.cpp(386): warning C4244: “=”: 从“double”转换到“Scalar”，可能丢失数据
+          with
+          [
+              Scalar=float
+          ]
+c:\users\yys\desktop\opt\tes\arap-deformation\arap\arap\arap.cpp(387): warning C4244: “=”: 从“double”转换到“Scalar”，可能丢失数据
+          with
+          [
+              Scalar=float
+          ]
+c:\users\yys\desktop\opt\tes\arap-deformation\arap\arap\arap.cpp(388): warning C4244: “=”: 从“double”转换到“Scalar”，可能丢失数据
+          with
+          [
+              Scalar=float
+          ]
+c:\users\yys\desktop\opt\tes\arap-deformation\arap\arap\arap.cpp(512): warning C4267: “参数”: 从“size_t”转换到“GLsizei”，可能丢失数据
+c:\users\yys\desktop\opt\tes\arap-deformation\arap\arap\arap.cpp(522): warning C4267: “参数”: 从“size_t”转换到“GLsizei”，可能丢失数据
+c:\users\yys\desktop\opt\tes\arap-deformation\arap\arap\arap.cpp(532): warning C4267: “+=”: 从“size_t”转换到“int”，可能丢失数据
+c:\users\yys\desktop\opt\tes\arap-deformation\arap\arap\arap.cpp(549): warning C4244: “=”: 从“double”转换到“T”，可能丢失数据
+          with
+          [
+              T=float
+          ]
+c:\users\yys\desktop\opt\tes\arap-deformation\arap\arap\arap.cpp(550): warning C4244: “=”: 从“double”转换到“T”，可能丢失数据
+          with
+          [
+              T=float
+          ]
+c:\users\yys\desktop\opt\tes\arap-deformation\arap\arap\arap.cpp(551): warning C4244: “=”: 从“double”转换到“T”，可能丢失数据
+          with
+          [
+              T=float
+          ]
+c:\users\yys\desktop\opt\tes\arap-deformation\arap\arap\arap.cpp(554): warning C4244: “初始化”: 从“double”转换到“float”，可能丢失数据
+c:\users\yys\desktop\opt\tes\arap-deformation\arap\arap\arap.cpp(568): warning C4244: “=”: 从“Eigen::Index”转换到“int”，可能丢失数据
+c:\program files (x86)\microsoft visual studio\2017\community\vc\tools\msvc\14.15.26726\include\utility(174): warning C4267: “初始化”: 从“size_t”转换到“_Ty1”，可能丢失数据
+          with
+          [
+              _Ty1=int
+          ]
+  c:\users\yys\desktop\opt\tes\arap-deformation\arap\arap\arap.cpp(24): note: 参见对正在编译的函数 模板 实例化“std::pair<int,float>::pair<size_t&,Scalar&,0>(_Other1,_Other2) noexcept”的引用
+          with
+          [
+              Scalar=float,
+              _Other1=size_t &,
+              _Other2=float &
+          ]
+  c:\users\yys\desktop\opt\tes\arap-deformation\arap\arap\arap.cpp(24): note: 参见对正在编译的函数 模板 实例化“std::pair<int,float>::pair<size_t&,Scalar&,0>(_Other1,_Other2) noexcept”的引用
+          with
+          [
+              Scalar=float,
+              _Other1=size_t &,
+              _Other2=float &
+          ]
+c:\users\yys\desktop\opt\tes\arap-deformation\include\igl\list_to_matrix.cpp(22): warning C4267: “初始化”: 从“size_t”转换到“int”，可能丢失数据
+  c:\users\yys\desktop\opt\tes\arap-deformation\include\igl\readobj.cpp(386): note: 参见对正在编译的函数 模板 实例化“bool igl::list_to_matrix<double,Eigen::Matrix<double,-1,-1,0,-1,-1>>(const std::vector<std::vector<double,std::allocator<_Ty>>,std::allocator<std::vector<_Ty,std::allocator<_Ty>>>> &,Eigen::PlainObjectBase<Eigen::Matrix<double,-1,-1,0,-1,-1>> &)”的引用
+          with
+          [
+              _Ty=double
+          ]
+  c:\users\yys\desktop\opt\tes\arap-deformation\arap\arap\arap.cpp(615): note: 参见对正在编译的函数 模板 实例化“bool igl::readOBJ<Eigen::Matrix<double,-1,-1,0,-1,-1>,Eigen::Matrix<int,-1,-1,0,-1,-1>>(const std::string,Eigen::PlainObjectBase<Eigen::Matrix<double,-1,-1,0,-1,-1>> &,Eigen::PlainObjectBase<Eigen::Matrix<int,-1,-1,0,-1,-1>> &)”的引用
+c:\users\yys\desktop\opt\tes\arap-deformation\include\igl\readobj.cpp(170): warning C4267: “return”: 从“size_t”转换到“int”，可能丢失数据
+  c:\users\yys\desktop\opt\tes\arap-deformation\include\igl\readobj.cpp(41): note: 参见对正在编译的函数 模板 实例化“bool igl::readOBJ<double,int>(FILE *,std::vector<std::vector<double,std::allocator<_Ty>>,std::allocator<std::vector<_Ty,std::allocator<_Ty>>>> &,std::vector<std::vector<_Ty,std::allocator<_Ty>>,std::allocator<std::vector<_Ty,std::allocator<_Ty>>>> &,std::vector<std::vector<_Ty,std::allocator<_Ty>>,std::allocator<std::vector<_Ty,std::allocator<_Ty>>>> &,std::vector<std::vector<int,std::allocator<int>>,std::allocator<std::vector<int,std::allocator<int>>>> &,std::vector<std::vector<int,std::allocator<int>>,std::allocator<std::vector<int,std::allocator<int>>>> &,std::vector<std::vector<int,std::allocator<int>>,std::allocator<std::vector<int,std::allocator<int>>>> &,std::vector<std::tuple<std::string,Index,Index>,std::allocator<std::tuple<std::string,Index,Index>>> &)”的引用
+          with
+          [
+              _Ty=double,
+              Index=int
+          ]
+  c:\users\yys\desktop\opt\tes\arap-deformation\include\igl\readobj.cpp(379): note: 参见对正在编译的函数 模板 实例化“bool igl::readOBJ<double,int>(const std::string,std::vector<std::vector<double,std::allocator<_Ty>>,std::allocator<std::vector<_Ty,std::allocator<_Ty>>>> &,std::vector<std::vector<_Ty,std::allocator<_Ty>>,std::allocator<std::vector<_Ty,std::allocator<_Ty>>>> &,std::vector<std::vector<_Ty,std::allocator<_Ty>>,std::allocator<std::vector<_Ty,std::allocator<_Ty>>>> &,std::vector<std::vector<int,std::allocator<int>>,std::allocator<std::vector<int,std::allocator<int>>>> &,std::vector<std::vector<int,std::allocator<int>>,std::allocator<std::vector<int,std::allocator<int>>>> &,std::vector<std::vector<int,std::allocator<int>>,std::allocator<std::vector<int,std::allocator<int>>>> &)”的引用
+          with
+          [
+              _Ty=double
+          ]
+c:\users\yys\desktop\opt\tes\arap-deformation\include\igl\readobj.cpp(174): warning C4267: “return”: 从“size_t”转换到“int”，可能丢失数据
+c:\users\yys\desktop\opt\tes\arap-deformation\include\igl\readobj.cpp(178): warning C4267: “return”: 从“size_t”转换到“int”，可能丢失数据
+  stb_image.cpp
+  正在生成代码
+  All 9711 functions were compiled because no usable IPDB/IOBJ from previous compilation was found.
+  已完成代码的生成
+  arap.vcxproj -> C:\Users\yys\Desktop\opt\tes\arap-deformation\arap\x64\Release\arap.exe
+  anchor_fs.txt
+  anchor_vs.txt
+  model_fs.txt
+  model_vs.txt
+  wire_fs.txt
+  wire_vs.txt
+  已复制         6 个文件。
+  已复制         1 个文件。
+  A.obj
+  D.obj
+  M.obj
+  S.obj
+  已复制         4 个文件。

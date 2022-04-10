@@ -24,6 +24,9 @@
     <ClInclude Include="camera.h">
       <Filter>头文件</Filter>
     </ClInclude>
+    <ClInclude Include="stb_image.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="arap.cpp">
@@ -32,9 +35,11 @@
     <ClCompile Include="..\..\c\glad.c">
       <Filter>源文件</Filter>
     </ClCompile>
+    <ClCompile Include="stb_image.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
-    <Text Include="model_gs.txt" />
     <Text Include="model_fs.txt" />
     <Text Include="model_vs.txt" />
     <Text Include="anchor_vs.txt" />

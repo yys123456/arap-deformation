@@ -1,0 +1,11 @@
+#version 450 core
+layout (location = 0) in vec3 position;
+
+out VS_OUT{
+	vec3 FragPos;
+}vs_out;
+
+void main(){
+	vs_out.FragPos = position;
+	gl_Position = vec4(position, 1.0);
+}
